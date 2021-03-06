@@ -1,12 +1,14 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
+import Avatar from "./Avatar";
 
 console.log(contacts);
 
 function App(){
 	return(
 	<div>
+		<Avatar imgSrc="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkXzgMwVE6O9PUtZ0KqKgtQdSRmzQ-YFFYNA&usqp=CAU"/>
 		<Card name={contacts[0]["name"]} 
 			  imgSrc={contacts[0]["imgURL"]} 
 			  tel={contacts[0]["phone"]} 
