@@ -2,7 +2,7 @@ import React from "react";
 
 function Detail(props){
 	return(
-		<div className="bottom">
+		<div>
 			<p className="info">{props.detailInfo}</p>
 		</div>
 	);
